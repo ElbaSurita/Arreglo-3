@@ -19,6 +19,12 @@ namespace Arreglo3
 
             Console.WriteLine("La suma de los valores es igual a " + suma);
 
+            Console.WriteLine("La cantidad de valores introducidos fueron de " + valores.Length);
+
+            double promedio = suma / valores.Length;
+
+            Console.WriteLine("El promedio de los valores es igual a " + promedio);
+
             Console.ReadLine();
         }
     }
